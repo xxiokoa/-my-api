@@ -3,6 +3,7 @@ const axios = require('axios');
 // 设置API请求的配置参数，包括API密钥、请求头、请求参数等。
 const config = {
     headers: {
+         'Access-Control-Allow-Origin': '*',
         'Content-Type': 'application/json',
         'Authorization': 'Bearer ' + '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'// 用您的API密钥替换YOUR_API_KEY
     }
